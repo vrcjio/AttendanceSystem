@@ -1,0 +1,51 @@
+/* src/index.css ya App.css */
+body {
+  font-family: "Poppins", sans-serif;
+  overflow: scroll;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #ffc107 !important; /* Bootstrap warning yellow */
+}
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Set width of the vertical scrollbar */
+  height: 10px; /* Set height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(116, 203, 253); /* Color of the scrollbar handle */
+  border-radius: 10px; /* Optional: makes the handle rounded */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color when hovering over the scrollbar handle */
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(157, 199, 223); /* Track color (background of the scrollbar) */
+  border-radius: 10px; /* Optional: rounded track */
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgb(157, 199, 223);; /* Color of the track where there is no thumb */
+}
+.three-d-icon {
+  text-shadow:
+    1px 1px 0 #ccc,
+    2px 2px 0 #bbb,
+    3px 3px 0 #aaa;
+  transform: rotateX(5deg) rotateY(5deg);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.three-d-icon:hover {
+  transform: rotateX(0deg) rotateY(0deg) scale(1.1);
+  text-shadow:
+    1px 1px 2px #999,
+    2px 2px 4px #888,
+    3px 3px 6px #777;
+}
+
+
