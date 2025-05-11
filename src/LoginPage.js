@@ -31,12 +31,12 @@ export default function LoginPage({ ...props }) {
                   icon="school"
                   className={`fa-3x me-3 ${
                     isLogin ? "text-info" : "text-success"
-                  } three-d-icon`}
+                  } `}
                 />
                 <span
                   className={`h1 fw-bold mb-0 ${
                     isLogin ? "text-info" : "text-success"
-                  } three-d-icon`}
+                  } `}
                 >
                   MySchool
                 </span>

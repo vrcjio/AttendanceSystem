@@ -44,15 +44,8 @@ export default function NavigationBar({ ...props }) {
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink>
-                <NavLink to="/features" className="text-white text-decoration-none">
-                  Features
-                </NavLink>
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink>
-                <NavLink to="/pricing" className="text-white text-decoration-none">
-                  Pricing
+                <NavLink to="/Login" className="text-white text-decoration-none">
+                  Login
                 </NavLink>
               </MDBNavbarLink>
             </MDBNavbarItem>
